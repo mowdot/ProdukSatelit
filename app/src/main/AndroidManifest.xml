@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bmkg.hamzah.produksatelitstmkg">
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".cbActivity"></activity>
+        <activity android:name=".vulkanikActivity"></activity>
+        <activity android:name=".awanActivity"></activity>
+        <activity android:name=".asapActivity"></activity>
+        <activity android:name=".mccActivity"></activity>
+        <activity android:name=".rdcaActivity"></activity>
+        <activity android:name=".fogActivity"></activity>
+        <activity android:name=".hujanActivity"></activity>
+        <activity android:name=".cblastActivity"></activity>
+        <activity android:name=".awanlastActivity"></activity>
+        <activity android:name=".vulkaniklastActivity"></activity>
+        <activity android:name=".asaplastActivity"></activity>
+        <activity android:name=".mcclastActivity"></activity>
+        <activity android:name=".rdcalastActivity"></activity>
+        <activity android:name=".foglastActivity"></activity>
+        <activity android:name=".hujanlastActivity"></activity>
+        <activity android:name=".ActivitySatu"></activity>
+        <activity android:name=".ActivityDua"></activity>
+        <activity android:name=".teamActivity"></activity>
+    </application>
+
+</manifest>
